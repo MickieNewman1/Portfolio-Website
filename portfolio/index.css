@@ -1,0 +1,79 @@
+body{
+	font-family:oxygenlight, arial, sans-serif;
+	color:rgb(50,50,50);
+	margin:0px; /*Gets rid of the natural margin around the browser window edges*/
+	display: block;
+}
+
+#container {
+    margin-left: 205px;
+   
+    height: auto;
+
+    padding: 0px;
+    box-sizing: border-box;
+    
+    display: grid;
+    grid-template-columns: repeat(12, 8.33333%);
+}
+
+.header{
+	height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+.side a {
+    font-family: 'oxygenlight';
+    padding: 6px 0px 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(120,120,120);
+    display: block;
+}
+.side a:hover {
+    color: rgb(55,55,55);
+    transition: 0.3s;
+    transform: translateX(20px);
+}
+.top {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.topOfPage {
+    font-family: 'oxygenlight';
+    font-size: 70px;
+    color: rgb(120,120,120);
+    margin-left: 205px;
+    padding-top: 10px;
+}
+
+.fullbox {
+    box-sizing: border-box;
+    text-align: justify;
+    grid-column: 2 / 11;
+    margin: 10px;
+    color: rgb(120,120,120);
+    font-size: 20px;
+    font-family: 'oxygenlight';
+}
+
+footer {
+	display: block;
+    text-align: center;
+    color: rgb(120,120,120);
+    font-size: 15px;
+    font-family: 'oxygenlight';
+    box-sizing:border-box;
+
+}
+
+
+img{
+	max-width:100%;
+}
